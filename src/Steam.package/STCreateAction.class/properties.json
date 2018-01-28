@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"class",
+		"title",
+		"acceptTitle",
+		"cancelTitle"
+	],
+	"name" : "STCreateAction",
+	"type" : "normal"
+}

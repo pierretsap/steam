@@ -1,0 +1,4 @@
+accessing
+logout
+	
+	currentUser := nil

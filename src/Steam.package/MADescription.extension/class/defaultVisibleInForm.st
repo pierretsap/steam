@@ -1,0 +1,4 @@
+*Steam
+defaultVisibleInForm
+
+	^ true

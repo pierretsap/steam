@@ -1,0 +1,4 @@
+testing
+isLogged
+	
+	self subclassResponsibility

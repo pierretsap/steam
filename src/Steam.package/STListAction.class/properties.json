@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "STAction",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"listAccessor"
+	],
+	"name" : "STListAction",
+	"type" : "normal"
+}

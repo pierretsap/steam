@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "STComponent",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"password",
+		"account",
+		"component"
+	],
+	"name" : "STAuthentificationComponent",
+	"type" : "normal"
+}

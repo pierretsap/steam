@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MADescribedColumn",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STDescribedImageColumn",
+	"type" : "normal"
+}

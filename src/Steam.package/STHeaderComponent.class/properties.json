@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "STComponent",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STHeaderComponent",
+	"type" : "normal"
+}

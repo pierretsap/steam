@@ -1,0 +1,4 @@
+accessing
+isLogged
+
+	^ currentUser notNil

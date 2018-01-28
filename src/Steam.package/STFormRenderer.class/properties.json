@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TBSMagritteFormRenderer",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STFormRenderer",
+	"type" : "normal"
+}

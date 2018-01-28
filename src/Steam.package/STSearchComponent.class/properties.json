@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "STComponent",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"elementType",
+		"model"
+	],
+	"name" : "STSearchComponent",
+	"type" : "normal"
+}

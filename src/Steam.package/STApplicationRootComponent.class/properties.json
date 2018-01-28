@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WAComponent",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"main",
+		"store",
+		"login"
+	],
+	"name" : "STApplicationRootComponent",
+	"type" : "normal"
+}

@@ -1,0 +1,4 @@
+accessing
+menuEntries
+
+	self subclassResponsibility

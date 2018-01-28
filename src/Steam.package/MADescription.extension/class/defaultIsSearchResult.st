@@ -1,0 +1,4 @@
+*Steam
+defaultIsSearchResult
+
+	^ false

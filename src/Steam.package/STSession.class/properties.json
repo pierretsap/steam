@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WASession",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"logged",
+		"currentUser"
+	],
+	"name" : "STSession",
+	"type" : "normal"
+}

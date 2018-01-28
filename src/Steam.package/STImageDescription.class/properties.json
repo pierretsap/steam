@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAUrlDescription",
+	"category" : "Steam",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STImageDescription",
+	"type" : "normal"
+}
