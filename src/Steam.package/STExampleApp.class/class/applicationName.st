@@ -1,0 +1,4 @@
+initialization
+applicationName
+	
+	^ 'Example App'

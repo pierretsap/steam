@@ -1,0 +1,4 @@
+rendering
+title
+
+	^ 'Example title'

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "STApplicationRootComponent",
+	"category" : "Steam-Example",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STExampleApp",
+	"type" : "normal"
+}
