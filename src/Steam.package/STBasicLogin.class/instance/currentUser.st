@@ -1,0 +1,4 @@
+rendering
+currentUser
+
+	^ application currentUser

@@ -1,4 +1,4 @@
 authentication
 isLogged
 	
-	^ login isLogged
+	^ self session isLogged

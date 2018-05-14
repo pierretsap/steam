@@ -2,4 +2,4 @@ rendering
 initialize
 
 	super initialize.
-	login := STNoLogin new
+	login := STExampleLogin on: self

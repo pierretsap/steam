@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"application"
+		"username"
 	],
-	"name" : "STLogin",
+	"name" : "STUser",
 	"type" : "normal"
 }

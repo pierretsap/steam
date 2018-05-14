@@ -1,0 +1,4 @@
+testing
+isLogged
+
+	^ application isLogged
