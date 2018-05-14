@@ -1,4 +1,4 @@
 accessing
 title
 	
-	^ 'A naise game'
+	^ title
