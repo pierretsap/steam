@@ -1,5 +1,5 @@
-descriptions
-descriptionTitle
+acessing-magritte
+descriptionSearchField
 	<magritteDescription>
 	^ MAStringDescription new
 		label: 'Title';
