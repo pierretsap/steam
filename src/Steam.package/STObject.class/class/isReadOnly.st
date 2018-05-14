@@ -1,0 +1,4 @@
+descriptions
+isReadOnly
+	
+	^ false
