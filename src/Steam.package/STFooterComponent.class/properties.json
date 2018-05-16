@@ -6,9 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"header",
-		"footer"
+		"elements"
 	],
-	"name" : "STPage",
+	"name" : "STFooterComponent",
 	"type" : "normal"
 }

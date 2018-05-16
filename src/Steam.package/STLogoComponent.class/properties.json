@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"header",
-		"footer"
+		"url",
+		"width"
 	],
-	"name" : "STPage",
+	"name" : "STLogoComponent",
 	"type" : "normal"
 }

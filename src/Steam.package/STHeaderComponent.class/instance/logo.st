@@ -1,0 +1,3 @@
+rendering
+logo
+	^ STLogoComponent new
