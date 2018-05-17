@@ -1,3 +1,6 @@
 accessing
-element: object
-	^ self new element: object 
+element: elem
+	^ self new 
+		element: elem;
+		url: '#' ;
+		yourself 

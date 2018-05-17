@@ -1,3 +1,3 @@
 rendering
 logo
-	^ STLogoComponent new
+	^ logo 

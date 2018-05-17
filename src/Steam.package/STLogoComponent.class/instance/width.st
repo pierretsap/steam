@@ -1,3 +1,3 @@
 accessing
 width
-	^ 70
+	^ width 

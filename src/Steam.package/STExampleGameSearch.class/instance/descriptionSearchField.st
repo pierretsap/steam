@@ -5,5 +5,6 @@ descriptionSearchField
 		label: 'Title';
 		accessor: #title;
 		beSearchField;
+		comment: 'Search for gamezz';
 		beRequired;
 		yourself

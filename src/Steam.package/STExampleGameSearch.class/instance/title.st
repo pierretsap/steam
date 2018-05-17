@@ -1,4 +1,4 @@
 accessing
 title
 
-	^ 'Search for gamez'
+	^ title
