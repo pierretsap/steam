@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "STSSOLogin",
+	"category" : "Steam-Login",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STFacebookLogin",
+	"type" : "normal"
+}

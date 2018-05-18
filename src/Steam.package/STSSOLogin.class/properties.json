@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "STLogin",
+	"category" : "Steam-Login",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"key",
+		"secret",
+		"redirectUrl"
+	],
+	"name" : "STSSOLogin",
+	"type" : "normal"
+}

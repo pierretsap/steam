@@ -1,0 +1,4 @@
+accessing
+applicationSession
+	
+	^ application session
