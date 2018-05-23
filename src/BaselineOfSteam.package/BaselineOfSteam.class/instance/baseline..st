@@ -28,7 +28,7 @@ baseline: spec
 				spec
 					className: #ConfigurationOfZincHTTPComponents ;
 					versionString: #'stable';
-					loads: #('SSO-OAuth1' 'SSO-OAuth2' 'SSO-OpenID');
+					loads: #('SSO-OAuth1' 'SSO-OAuth2' 'SSO-OpenID' 'SSO-Demo');
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
 				
 			package: #'Steam' with: [ 
