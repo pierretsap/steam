@@ -24,13 +24,19 @@ baseline: spec
 					className: #ConfigurationOfBootstrapMagritte;
 					versionString: #'stable';
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
+			package: #'Zinc-SSO-Seaside-Demo' with: [ 
+				spec
+					repository: 'http://mc.stfx.eu/ZincHTTPComponents/';
+					requires: #('Zinc-SSO-Seaside-Support') ];
+			package: #'Zinc-SSO-Seaside-Support' with: [ 
+				spec repository: 'http://mc.stfx.eu/ZincHTTPComponents/' ];
 			project: #SSO with: [ 
 				spec
 					className: #ConfigurationOfZincHTTPComponents ;
 					versionString: #'stable';
-					loads: #('SSO-OAuth1' 'SSO-OAuth2' 'SSO-OpenID' 'SSO-Demo');
+					loads: #('SSO-OAuth1' 'SSO-OAuth2' 'SSO-OpenID' );
 					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ];
-				
+
 			package: #'Steam' with: [ 
-				spec requires: #( BootstrapMagritte Magritte3 Bootstrap Seaside3 ) ]
+				spec requires: #( BootstrapMagritte Magritte3 Bootstrap Seaside3 'Zinc-SSO-Seaside-Demo' 'Zinc-SSO-Seaside-Support' ) ]
 		]
