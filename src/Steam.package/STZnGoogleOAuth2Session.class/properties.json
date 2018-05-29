@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "STZnOAuth2Session",
+	"category" : "Steam-SSO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"accessType",
+		"approvalPrompt"
+	],
+	"name" : "STZnGoogleOAuth2Session",
+	"type" : "normal"
+}
