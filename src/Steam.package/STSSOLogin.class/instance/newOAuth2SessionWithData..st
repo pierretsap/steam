@@ -1,4 +1,0 @@
-accessing
-newOAuth2SessionWithData: consumerData
-
-	self subclassResponsibility

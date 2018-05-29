@@ -1,6 +1,5 @@
 initialization
 initialize
-	"self initialize"
 	| app |
 	
 	self isAbstract ifTrue: [ ^ self ].
@@ -10,4 +9,4 @@ initialize
 	app
 		addLibrary: JQDeploymentLibrary;
 		addLibrary: JQUiDeploymentLibrary;
-		addLibrary: TBSDeploymentLibrary
+		addLibrary: TBSDeploymentLibrary.

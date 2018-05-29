@@ -1,4 +1,0 @@
-accessing
-applicationSession
-	
-	^ application session

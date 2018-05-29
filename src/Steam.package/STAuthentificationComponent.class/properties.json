@@ -8,7 +8,8 @@
 	"instvars" : [
 		"password",
 		"account",
-		"component"
+		"component",
+		"responsePanel"
 	],
 	"name" : "STAuthentificationComponent",
 	"type" : "normal"

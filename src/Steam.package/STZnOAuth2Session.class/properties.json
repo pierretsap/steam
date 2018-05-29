@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Steam-SSO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"consumerData",
+		"redirectUrl",
+		"scopes",
+		"accessToken",
+		"tokenType",
+		"refreshToken"
+	],
+	"name" : "STZnOAuth2Session",
+	"type" : "normal"
+}

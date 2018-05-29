@@ -1,6 +1,5 @@
 rendering
 renderContentOn: html
-	| googleSession |
 	html tbsModal
 		id: 'myAuthDialog';
 		with: [ html tbsModalDialog: [
@@ -15,6 +14,7 @@ renderContentOn: html
 						html break.
 						html tbsModalFooter: [ self renderOkCancelOn: html ]].
 					html break; break.
+					self renderSignInOptionsOn: html
 	
-					application logins do: [ :each |
-						each renderContentOn: html] ] ] ] ]
+					"application logins do: [ :each |
+						each renderContentOn: html]" ] ] ] ]
