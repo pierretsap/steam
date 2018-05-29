@@ -1,4 +1,5 @@
 accessing
 logout
 	
-	currentUser := nil
+	currentUser := nil.
+	self restetUserInfos 

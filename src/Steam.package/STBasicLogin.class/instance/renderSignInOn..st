@@ -1,6 +1,5 @@
 rendering
 renderSignInOn: html 
-	
 	self isLogged ifFalse: [
 		"my auth dialog is not defined here???!!!"
 		self flag: #smell.
@@ -14,7 +13,10 @@ renderSignInOn: html
 		html tbsDropdownButton
 			beDefault;
 			with: [ 
-				html tbsGlyphIcon iconUser.
+				((application session userInfos) 
+					at: 'picture' 
+					ifPresent: [ html image width: 30; url: ((application session userInfos) at: 'picture') ] 
+					ifAbsent: [html tbsGlyphIcon iconUser]).
 				html space.
 				html text: self currentUserName.
 				html space.
@@ -28,4 +30,6 @@ renderSignInOn: html
 					 html tbsDropdownMenuItem: [ 
 						html anchor
 							callback: [ self logout ];
-							with: 'Log out' ] ] ] ]
+							with: 'Log out' ] ] ] ].
+
+		

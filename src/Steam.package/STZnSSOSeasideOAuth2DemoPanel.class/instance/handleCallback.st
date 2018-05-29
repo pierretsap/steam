@@ -4,4 +4,5 @@ handleCallback
 
 	oauthSession handleAuthenticationCallback: self requestContext request fields.
 	userData := oauthSession getUserData.
-	self application application login loginUsername: (userData at: 'given_name') password: 'none'
+	self application application login loginUsername: (userData at: 'given_name') password: 'none'.
+	self session userInfos addAll: userData .
