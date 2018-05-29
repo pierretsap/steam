@@ -1,5 +1,5 @@
 rendering
 initialize
 	super initialize.
-	url := 'https://i2.wp.com/www.hicom.fr/wp-content/uploads/2017/09/Logo_TV_2015.png'.
+	url := 'http://files.pharo.org/media/logo/icon-lighthouse-512x512.png'.
 	width := 70

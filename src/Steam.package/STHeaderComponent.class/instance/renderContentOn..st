@@ -3,7 +3,7 @@ renderContentOn: html
 	html render: (STAuthentificationComponent from: self application: application).
 	html tbsNavbar beDefault with: [
 		html tbsNavbarHeader: [ 
-			logo renderContentOn: html.
+			html anchor url: 'http://localhost:8080/Example%20App'; with: [ logo renderContentOn: html ].
 			html tbsNavbarBrand
 				url: 'http://localhost:8080/Example%20App';
 				with: 	application title].
