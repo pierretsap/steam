@@ -16,7 +16,7 @@ renderOAuth2Providers: aCallbackUrl on: html
 	html anchor
 		callback: [ self signOnUsingOAuth2Microsoft: aCallbackUrl ] ;
 		with: 'Microsoft'.
-		html text: ' | '.
+		html text: ' | '."
 	html anchor
 		callback: [ self signOnUsingOAuth2Github: aCallbackUrl ] ;
-		with: 'Github'"
+		with: 'Github'
