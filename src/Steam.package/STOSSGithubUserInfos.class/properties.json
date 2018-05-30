@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "STOSSUserInfos",
+	"category" : "Steam-SSO",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "STOSSGithubUserInfos",
+	"type" : "normal"
+}

@@ -1,10 +1,6 @@
 rendering
 renderOAuth2Providers: aCallbackUrl on: html
 
-	html heading
-		level2 ;
-		with: 'OAuth2 providers'.
-
 "	html anchor
 		callback: [ self signOnUsingOAuth2Facebook: aCallbackUrl ] ;
 		with: 'Facebook'.
