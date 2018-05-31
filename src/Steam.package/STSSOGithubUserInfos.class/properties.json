@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "STOSSUserInfos",
+	"super" : "STSSOUserInfos",
 	"category" : "Steam-SSO",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "STOSSGoogleUserInfos",
+	"name" : "STSSOGithubUserInfos",
 	"type" : "normal"
 }
