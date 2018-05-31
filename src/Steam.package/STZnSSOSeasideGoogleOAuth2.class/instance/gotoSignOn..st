@@ -1,7 +1,7 @@
-actions
+as yet unclassified
 gotoSignOn: aCallbackUrl
 	| state |
-	oauthSession := STZnGitHubOAuth2Session new
+	oauthSession := STZnGoogleOAuth2Session new
 		setConsumerData: self oauthConsumerData;
 		yourself.
 	
