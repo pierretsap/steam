@@ -1,6 +1,13 @@
 resources
 oauthConsumerData
+|ap sap|
+ap := application .
+sap := self application .
+1haltOnce. 
+"this is ambiguous.."
+self flag: #smell.
+
 	^ STZnOAuth2ConsumerData 
-		key: 'e94060c606d435f40a86'
-		secret: '130511e35daa0b24aa756bb961b8a966cbda5df8'
-		redirectUrl: 'http://localhost:8080/oauth2callback'
+		key: (self application preferenceAt: #oauth2GithubClientId)
+		secret: (self application preferenceAt: #oauth2GithubClientSecret)
+		redirectUrl: (self application preferenceAt: #oauth2GithubRedirectUrl)
