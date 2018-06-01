@@ -2,4 +2,4 @@ initialization
 initialize
 	super initialize.
 	logins := OrderedCollection new.
-	main := STPage application: self.
+	main := STPage appComponent: self.

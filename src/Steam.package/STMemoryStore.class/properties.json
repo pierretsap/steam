@@ -7,7 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"store",
-		"application"
+		"appComponent"
 	],
 	"name" : "STMemoryStore",
 	"type" : "normal"
