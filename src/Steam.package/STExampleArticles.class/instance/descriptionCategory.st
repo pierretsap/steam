@@ -1,10 +1,9 @@
 descriptions
-descriptionTitle
+descriptionCategory
 	<magritteDescription>
 	^ MAStringDescription new
-		label: 'Title';
-		accessor: #title;
-		priority: 200;
+		label: 'Category';
+		accessor: #category;
 		beSearchField;
 		beRequired;
 		yourself

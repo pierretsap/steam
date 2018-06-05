@@ -2,5 +2,5 @@ initializing
 initialize
 
 	super initialize.
-	title := 'Search for gamez'.
+"	title := 'Search for games'."
 	results := #()

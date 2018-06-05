@@ -3,7 +3,7 @@ initialize
 	| app |
 	
 	self isAbstract ifTrue: [ ^ self ].
-	
+
 	app := WAAdmin register: self asApplicationAt: self applicationName.
 	app
 		addLibrary: JQDeploymentLibrary;

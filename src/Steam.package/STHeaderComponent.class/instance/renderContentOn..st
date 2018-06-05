@@ -3,9 +3,9 @@ renderContentOn: html
 	html render: (STAuthentificationComponent from: self appComponent: appComponent).
 	html tbsNavbar beDefault with: [
 		html tbsNavbarHeader: [ 
-			html anchor url: 'http://localhost:8080/Example%20App'; with: [ logo renderContentOn: html ].
+			html anchor url: '#'; with: [ logo renderContentOn: html ].
 			html tbsNavbarBrand
-				url: 'http://localhost:8080/Example%20App';
+				url: '#';
 				with: 	appComponent title].
 		html form: [
 			html tbsNavbarText tbsPullRight;

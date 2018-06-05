@@ -9,13 +9,13 @@ search
 			title: 'Grid 2'.
 		STExampleGame new
 			category: 'Sport';
-			title: 'Pro Evolution Soccer ''15'.
+			title: 'Rocket League'.
+		STExampleGame new
+			category: 'Combat';
+			title: 'Street Fighter'.
 		STExampleGame new
 			category: 'Sport';
-			title: 'Pro Evolution Soccer ''16'.
-		STExampleGame new
-			category: 'Sport';
-			title: 'Pro Evolution Soccer ''17'.
+			title: 'Need for speed'.
 		STExampleGame new
 			category: 'Sport';
 			title: 'Pro Evolution Soccer ''18'.

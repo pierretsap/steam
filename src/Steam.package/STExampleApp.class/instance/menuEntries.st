@@ -5,11 +5,12 @@ menuEntries
 			on: STExampleGame
 			title: 'Games'.
 			
-		STExampleGame new title: 'LOLO'.
+		STListAction
+			on: STExampleArticles
+			title: 'Articles'.
 		
-		STUpdateAction 
-			on: (STExampleGame new title: 'Update me')
-			title: 'Update me'.
+		STListAction
+			on: STGameCategory title: 'Game Categories'.
 			
 		STSearchAction
 			on: STExampleGameSearch new
