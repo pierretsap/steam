@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"appComponent"
-	],
+	"instvars" : [ ],
 	"name" : "STObject",
 	"type" : "normal"
 }

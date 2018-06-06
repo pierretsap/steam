@@ -13,5 +13,5 @@ menuEntries
 			on: STGameCategory title: 'Game Categories'.
 			
 		STSearchAction
-			on: STExampleGameSearch new
+			on: (STExampleGameSearch on: self)
 			title: 'Search Games'.}
