@@ -5,6 +5,14 @@ initialize
 	super initialize.
 	login := STExampleLogin on: self.	
 	
+	self save: ((STGameCategory onSteamApplication: self)
+		categoryName: 'Cool';
+		yourself).
+
+	self save: ((STGameCategory onSteamApplication: self)
+		categoryName: 'Not Cool';
+		yourself).
+	
 	"Adding some Games for example :"
 	{(STExampleGame onSteamApplication: self)
 		category: 'Action';
