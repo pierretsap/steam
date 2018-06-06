@@ -1,4 +1,0 @@
-descriptions
-isSelected
-
-	^ isSelected
