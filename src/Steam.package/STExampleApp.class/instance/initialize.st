@@ -6,21 +6,21 @@ initialize
 	login := STExampleLogin on: self.	
 	
 	"Adding some Games for example :"
-	{STExampleGame new
+	{(STExampleGame onSteamApplication: self)
 		category: 'Action';
 		title: 'Metal Gear 2'.
-	STExampleGame new
+	(STExampleGame onSteamApplication: self)
 		category: 'Sport';
 		title: 'Grid 2'.
-	STExampleGame new
+	(STExampleGame onSteamApplication: self)
 		category: 'Sport';
 		title: 'Rocket League'.
-	STExampleGame new
+	(STExampleGame onSteamApplication: self)
 		category: 'Combat';
 		title: 'Street Fighter'.
-	STExampleGame new
+	(STExampleGame onSteamApplication: self)
 		category: 'Sport';
 		title: 'Need for speed'.
-	STExampleGame new
+	(STExampleGame onSteamApplication: self)
 		category: 'Sport';
 		title: 'Pro Evolution Soccer ''18'} do: [ :e | self save: e ]

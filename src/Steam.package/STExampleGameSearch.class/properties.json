@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"results",
-		"searchValue",
-		"steamApplication"
+		"searchValue"
 	],
 	"name" : "STExampleGameSearch",
 	"type" : "normal"

@@ -4,7 +4,7 @@ report
 	
 	report := TBSMagritteReport
 		rows: self elements
-		description: (self listAccessor instanceMagritteDescription select: #visibleInReport).
+		description: ((self listAccessor instanceMagritteDescriptionOnApplication: appComponent) select: #visibleInReport).
 	report showStriped: true.
 	report showBordered: false.
 	report tableEmpty: 'No ' , self listAccessor title.

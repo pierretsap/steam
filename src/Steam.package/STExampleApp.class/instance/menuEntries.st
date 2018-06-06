@@ -13,5 +13,5 @@ menuEntries
 			on: STGameCategory title: 'Game Categories'.
 			
 		STSearchAction
-			on: (STExampleGameSearch on: self)
+			on: (STExampleGameSearch onSteamApplication: self)
 			title: 'Search Games'.}
