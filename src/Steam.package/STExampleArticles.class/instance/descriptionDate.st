@@ -6,5 +6,6 @@ descriptionDate
 		accessor: #date;
 		priority: 40;
 		addCondition: [ :value | value <= Date today ];
+		beRequired;
 		beSearchField;
 		yourself
