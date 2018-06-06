@@ -21,12 +21,15 @@ renderContentOn: html
 	report showStriped: true.
 	report showBordered: false.
 	report tableEmpty: 'No ', self listAccessor title.
+	report showBatchFirstLast: true.
 	
 	self isLoggedIn ifTrue: [
 		report addColumn: (MACommandColumn new
 			addCommandOn: self selector: #view: text: 'View';
 			addCommandOn: self selector: #edit: text: 'Edit';
 			addCommandOn: self selector: #delete: text: 'Delete';
-			yourself) ].
+			yourself). 
+"		report addColumn: (TBSMagritteCheckboxComponent new )"
+			].
 		
 	html render: report
