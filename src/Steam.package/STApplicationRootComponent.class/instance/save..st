@@ -1,5 +1,4 @@
 storing
-add: anObject
+save: anObject
 	
-	1halt.
 	store save: anObject
