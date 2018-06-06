@@ -8,4 +8,5 @@ descriptionTitle
 		beSearchField;
 		beRequired;
 		requiredErrorMessage: 'We cannot proceed without a title.';
+		componentClass: TBSMagritteTextInputComponent;
 		yourself
