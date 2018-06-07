@@ -1,6 +1,5 @@
 rendering
 renderContentOn: html
-
 	html render: self report.
 	
 	html div tbsPullRight ;

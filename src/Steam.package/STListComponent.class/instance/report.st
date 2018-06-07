@@ -10,15 +10,15 @@ report
 	report tableEmpty: 'No ' , self listAccessor title.
 	report showBatchFirstLast: true.
 	self isLoggedIn
-		ifTrue: [ report
-				addColumn:
-					(MACommandColumn new
-						addCommandOn: self selector: #view: text: 'View';
-						addCommandOn: self selector: #edit: text: 'Edit';
-						addCommandOn: self selector: #delete: text: 'Delete';
-						yourself).
-			report addColumn: (MACheckboxColumn new accessor: #isSelected).
-			report := STTBSMagritteReportWrapper new
+		ifTrue: [
+			report addColumn:
+				(MACommandColumn new
+					addCommandOn: self selector: #view: text: 'View';
+					addCommandOn: self selector: #edit: text: 'Edit';
+					addCommandOn: self selector: #delete: text: 'Delete';
+					yourself).
+			report addColumn: (MACheckboxColumn new accessor: #isSelected). 
+			report := wrapper
 				appComponent: appComponent;
 				selection: report columns last selection;
 				report: report ;
