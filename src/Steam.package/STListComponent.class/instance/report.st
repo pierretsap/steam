@@ -17,5 +17,10 @@ report
 						addCommandOn: self selector: #edit: text: 'Edit';
 						addCommandOn: self selector: #delete: text: 'Delete';
 						yourself).
-			report addColumn: (MACheckboxColumn new accessor: #isSelected) ].
+			report addColumn: (MACheckboxColumn new accessor: #isSelected).
+			report := STTBSMagritteReportWrapper new
+				appComponent: appComponent;
+				selection: report columns last selection;
+				report: report ;
+				yourself].
 	^ report
