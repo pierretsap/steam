@@ -10,7 +10,7 @@
 		"date",
 		"category",
 		"content",
-		"contact"
+		"email"
 	],
 	"name" : "STExampleArticles",
 	"type" : "normal"
