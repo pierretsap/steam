@@ -22,19 +22,25 @@ initialize
 	"Adding some Games for example :"
 	{(STExampleGame onSteamApplication: self)
 		category: actionCategory;
-		title: 'Metal Gear 2'.
+		title: 'Metal Gear 2';
+		rating: 7.
 	(STExampleGame onSteamApplication: self)
 		category: sportsCategory;
-		title: 'Grid 2'.
+		title: 'Grid 2';
+		rating: 10.
 	(STExampleGame onSteamApplication: self)
 		category: sportsCategory;
-		title: 'Rocket League'.
+		title: 'Rocket League';
+		rating: 9.
 	(STExampleGame onSteamApplication: self)
 		category: combatCategory;
-		title: 'Street Fighter'.
+		title: 'Street Fighter';
+		rating: 8.
 	(STExampleGame onSteamApplication: self)
 		category: sportsCategory;
-		title: 'Need for speed'.
+		title: 'Need for speed';
+		rating: 9.
 	(STExampleGame onSteamApplication: self)
 		category: sportsCategory;
-		title: 'Pro Evolution Soccer ''18'} do: [ :e | self save: e ]
+		title: 'Pro Evolution Soccer ''18';
+		rating: 7} do: [ :e | self save: e ]

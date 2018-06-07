@@ -4,7 +4,7 @@ descriptionCategory
 	^ MASingleOptionDescription new
 		label: 'Category';
 		accessor: #category;
-		priority: 100;
+		priority: 20;
 		options: (steamApplication queryAll: STGameCategory);
 		comment: 'Select a category';
 		beSorted;
