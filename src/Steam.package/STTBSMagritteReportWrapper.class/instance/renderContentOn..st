@@ -1,11 +1,18 @@
 rendering
 renderContentOn: html
 	html render: self report.
-	
-	html div tbsPullRight ;
-		class: 'reoprt-actions'; 
-		with: [
-			html anchor
-				class: 'btn' ;
-				callback: [ self delete ] ;
-				with: [ html tbsGlyphIcon iconTrash ] ]
+	html anchor 
+		callback: [ self delete ];
+		with: [ 
+			html div tbsPullLeft;
+				class: 'reoprt-actions'; 
+				with: [
+			html space.
+			self flag: #smell.
+			html tbsButton
+				beSubmit;
+				beDanger;
+				beExtraSmall;
+				"Why this callback isn't working ?"
+				callback: [  self delete ];
+				with: [ html tbsGlyphIcon iconTrash ] ] ]
