@@ -1,6 +1,6 @@
 rendering
 report
-	| description |
+	| description checkbox |
 	report ifNotNil: [ ^ report ].
 	report := TBSMagritteReport rows: self elements.
 	report showStriped: true.
@@ -10,7 +10,7 @@ report
 	report batchSize: 5.
 
 	self isLoggedIn
-		ifTrue: [ report addColumn: (MACheckboxColumn new accessor: #isSelected) ].
+		ifTrue: [ report addColumn: (checkbox := MACheckboxColumn new accessor: #isSelected) ].
 
 	description := (self listAccessor instanceMagritteDescriptionOnApplication: appComponent) select: #visibleInReport.
 	description asContainer do: [ :each | report addColumnDescription: each ].
@@ -23,9 +23,9 @@ report
 						addCommandOn: self selector: #edit: text: #iconPencil;
 						addCommandOn: self selector: #delete: text: #iconTrash;
 						yourself).
-			report := wrapper
+			checkbox label:( wrapper
 				appComponent: appComponent;
 				selection: report columns first selection;
 				report: report;
-				yourself ].
+				yourself )].
 	^ report

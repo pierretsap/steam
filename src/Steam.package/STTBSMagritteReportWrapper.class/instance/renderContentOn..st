@@ -7,7 +7,6 @@ renderContentOn: html
 			html div tbsPullLeft;
 				class: 'reoprt-actions'; 
 				with: [
-					html space.
 					self flag: #smell.
 					html tbsButton
 						beSubmit;
@@ -15,5 +14,4 @@ renderContentOn: html
 						beExtraSmall;
 						"Why this callback isn't working ?"
 						callback: [  self delete ];
-						with: [ html tbsGlyphIcon iconTrash ] ] ].
-	html render: self report
+						with: [ html tbsGlyphIcon iconTrash ] ] ]
