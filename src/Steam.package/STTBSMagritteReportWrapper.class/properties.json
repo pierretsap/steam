@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "WAComponent",
-	"category" : "Steam-Example",
+	"category" : "Steam",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

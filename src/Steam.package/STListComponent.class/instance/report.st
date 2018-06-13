@@ -10,7 +10,7 @@ report
 	report batchSize: 5.
 
 	self isLoggedIn
-		ifTrue: [ report addColumn: (checkbox := MACheckboxColumn new accessor: #isSelected) ].
+		ifTrue: [ report addColumn: (checkbox := STMACheckboxColumn new accessor: #isSelected) ].
 
 	description := (self listAccessor instanceMagritteDescriptionOnApplication: appComponent) select: #visibleInReport.
 	description asContainer do: [ :each | report addColumnDescription: each ].

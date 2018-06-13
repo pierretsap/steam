@@ -5,4 +5,4 @@ evaluateCreateAction
 	newObject := self call: (self renderCreateForm: (self listAccessor onSteamApplication: appComponent)).
 	newObject ifNotNil: [ 
 		appComponent save: newObject .
-		self report refresh].
+		self refresh].

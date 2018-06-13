@@ -1,10 +1,11 @@
 rendering
 renderContentOn: html
 	html anchor 
-		class: (selection ifEmpty: ['hidden'] );
+		style: (selection ifEmpty: ['visibility: hidden'] );
 		callback: [ self delete ];
 		with: [ 
-			html div tbsPullLeft;
+			html div
+				style: 'text-align: center';
 				class: 'reoprt-actions'; 
 				with: [
 					self flag: #smell.
@@ -13,5 +14,5 @@ renderContentOn: html
 						beDanger;
 						beExtraSmall;
 						"Why this callback isn't working ?"
-						callback: [  self delete ];
+						callback: [ self delete ];
 						with: [ html tbsGlyphIcon iconTrash ] ] ]
