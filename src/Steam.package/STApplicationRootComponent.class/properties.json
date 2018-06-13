@@ -9,7 +9,8 @@
 		"main",
 		"store",
 		"login",
-		"logins"
+		"logins",
+		"menuEntries"
 	],
 	"name" : "STApplicationRootComponent",
 	"type" : "normal"
