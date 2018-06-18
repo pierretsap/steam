@@ -18,7 +18,7 @@ initialize
 		categoryName: 'Sports';
 		yourself.
 	combatCategory := (STGameCategory onSteamApplication: self)
-		categoryName: 'Combat';
+		categoryName: 'Fighting';
 		yourself.
 	adventureCategory := (STGameCategory onSteamApplication: self)
 		categoryName: 'Adventure';
@@ -28,7 +28,7 @@ initialize
 	{(STExampleGame onSteamApplication: self)
 		category: actionCategory;
 		title: 'Metal Gear 2';
-		rating: 7.
+		rating: 5.
 	(STExampleGame onSteamApplication: self)
 		category: sportsCategory;
 		title: 'Grid 2';

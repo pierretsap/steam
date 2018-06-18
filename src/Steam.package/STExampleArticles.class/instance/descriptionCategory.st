@@ -7,5 +7,6 @@ descriptionCategory
 		priority: 20;
 		beSearchField;
 		beRequired;
+		requiredErrorMessage: 'An article must be categorized.';
 		componentClass: TBSMagritteTextInputComponent;
 		yourself

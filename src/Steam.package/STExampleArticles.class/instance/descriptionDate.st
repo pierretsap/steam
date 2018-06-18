@@ -10,5 +10,6 @@ descriptionDate
 		"only days of working week, not weekends"
 		addCondition: [ :v | ((v dayOfWeek = 7) | (v dayOfWeek = 1)) not ] labelled: 'Please select a working day.';
 		beRequired;
+		requiredErrorMessage: 'Don''t forget the date of publication.';
 		beSearchField;
 		yourself
