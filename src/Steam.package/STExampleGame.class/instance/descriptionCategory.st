@@ -11,4 +11,5 @@ descriptionCategory
 		componentClass: TBSMagritteSelectListComponent;
 "		addCondition: [ :v | v isNotNil ] labelled: 'You have to create a new category';"
 		beRequired;
+		beSearchField;
 		yourself

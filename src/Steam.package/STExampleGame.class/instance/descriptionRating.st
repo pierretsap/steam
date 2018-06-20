@@ -9,4 +9,5 @@ descriptionRating
 		comment: 'Game''s rating';
 		componentClass: TBSMagritteSelectListComponent;
 		beRequired;
+		beSearchField;
 		yourself
