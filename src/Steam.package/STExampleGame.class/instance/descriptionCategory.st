@@ -9,7 +9,7 @@ descriptionCategory
 		comment: 'Select a category';
 		beSorted;
 		componentClass: TBSMagritteSelectListComponent;
-"		addCondition: [ :v | v isNotNil ] labelled: 'You have to create a new category';"
+		requiredErrorMessage: 'You have to create a new category.';
 		beRequired;
 		beSearchField;
 		yourself
