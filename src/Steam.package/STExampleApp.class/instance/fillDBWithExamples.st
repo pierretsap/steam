@@ -4,16 +4,16 @@ fillDBWithExamples
 	| actionCategory sportsCategory combatCategory adventureCategory |
 	
 	{actionCategory := (STGameCategory onSteamApplication: self)
-		categoryName: 'Action';
+		title: 'Action';
 		yourself.
 	sportsCategory := (STGameCategory onSteamApplication: self)
-		categoryName: 'Sports';
+		title: 'Sports';
 		yourself.
 	combatCategory := (STGameCategory onSteamApplication: self)
-		categoryName: 'Fighting';
+		title: 'Fighting';
 		yourself.
 	adventureCategory := (STGameCategory onSteamApplication: self)
-		categoryName: 'Adventure';
+		title: 'Adventure';
 		yourself.} do: [ :each | self save: each ].
 	
 	"Adding some Games for example :"

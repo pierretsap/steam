@@ -1,8 +1,8 @@
 descriptions
-descriptionCategoryName
+descriptionTitle
 	<magritteDescription>
 	^ MAStringDescription new
-		label: 'Category';
-		accessor: #categoryName;
+		label: 'title';
+		accessor: #title;
 		priority: 100;
 		yourself

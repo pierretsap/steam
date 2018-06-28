@@ -1,4 +1,4 @@
 accessing
 printOn: aStream
 
-	aStream nextPutAll: self categoryName
+	aStream nextPutAll: self title

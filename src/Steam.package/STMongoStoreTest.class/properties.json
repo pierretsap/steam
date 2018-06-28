@@ -1,13 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "STObject",
-	"category" : "Steam-Example",
+	"super" : "TestCase",
+	"category" : "Steam-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"title"
+		"store",
+		"gameCat",
+		"game"
 	],
-	"name" : "STGameCategory",
+	"name" : "STMongoStoreTest",
 	"type" : "normal"
 }
