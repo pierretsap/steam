@@ -8,9 +8,11 @@
 	"instvars" : [
 		"id",
 		"title",
+		"date",
 		"category",
-		"rating"
+		"content",
+		"email"
 	],
-	"name" : "STExampleGame",
+	"name" : "STExampleArticle",
 	"type" : "normal"
 }

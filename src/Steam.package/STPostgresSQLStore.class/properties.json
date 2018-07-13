@@ -1,14 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "STObject",
-	"category" : "Steam-Example",
+	"super" : "STStore",
+	"category" : "Steam-Stores",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"id",
-		"title"
+		"descriptorSystem",
+		"session"
 	],
-	"name" : "STGameCategory",
+	"name" : "STPostgresSQLStore",
 	"type" : "normal"
 }

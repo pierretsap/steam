@@ -1,3 +1,9 @@
-as yet unclassified
+instance creation
 on: anApplication
-	self error: 'Please select one of it''s subclasses : ', self subclasses asString , ' in your app initialization'
+	self = STStore 
+		ifTrue: [ 
+			self error: 'Please select one of it''s subclasses : ', self subclasses asString , ' in your app initialization' ]
+		ifFalse: [ 
+			^ self new 
+				appComponent: anApplication; 
+				yourself ]
