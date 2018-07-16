@@ -1,4 +1,0 @@
-rendering
-title
-
-	^ 'Game manager'

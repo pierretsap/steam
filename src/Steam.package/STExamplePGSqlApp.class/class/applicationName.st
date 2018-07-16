@@ -1,4 +1,0 @@
-initialization
-applicationName
-	
-	^ 'Game manager'

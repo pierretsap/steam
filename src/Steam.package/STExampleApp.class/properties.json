@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "STExampleMongoApp",
+	"name" : "STExampleApp",
 	"type" : "normal"
 }

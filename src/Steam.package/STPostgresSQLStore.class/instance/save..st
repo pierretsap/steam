@@ -1,4 +1,4 @@
-action
+storing
 save: anObject
 	
 	session login.

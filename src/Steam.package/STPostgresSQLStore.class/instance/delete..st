@@ -1,4 +1,4 @@
-instance creation
+storing
 delete: anObject
 
 	session login.

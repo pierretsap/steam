@@ -1,8 +1,8 @@
 initialization
 setUp
 	| app |
-	app := STExampleMongoApp new.
-	store := app store: (STMemoryStore on: app).
+	app := STMemoryStore createAppWithClass: STExampleApp.
+	store := app store.
 	gameCat := (STGameCategory onSteamApplication: app)
 		title: 'Test Category';
 		yourself.
