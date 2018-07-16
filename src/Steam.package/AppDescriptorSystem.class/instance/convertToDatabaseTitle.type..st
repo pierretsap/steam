@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertToDatabaseTitle: title type: type
 	| stringResult |
 	stringResult := '	aTable createFieldNamed: ''', title, ''' type: (platform '.

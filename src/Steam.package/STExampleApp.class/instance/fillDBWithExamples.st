@@ -1,4 +1,4 @@
-as yet unclassified
+example
 fillDBWithExamples
 
 	| actionCategory sportsCategory combatCategory adventureCategory |
