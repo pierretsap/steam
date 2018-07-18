@@ -1,4 +1,4 @@
-as yet unclassified
+descriptions
 instanceVariablesDescriptionType
 	| res |
 	res := Dictionary new.

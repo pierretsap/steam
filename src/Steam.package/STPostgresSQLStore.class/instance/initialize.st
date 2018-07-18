@@ -6,4 +6,4 @@ initialize
 	session := GlorpSession new.
 	session accessor: (DatabaseAccessor forLogin: self class login).
 	session system: descriptorSystem."
-	session := AppDescriptorSystem sessionForLogin: self class login.
+	session := AppDescriptorSystem sessionForLogin: self class login on: appComponent.

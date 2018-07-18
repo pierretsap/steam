@@ -9,4 +9,5 @@ addTableFor: aClass
 	aClass basicNew magritteDescription children do: [ :each |
 		newTable
 			createFieldNamed: each accessor readSelector
-			type: (each convertTypeFor: platform) ]
+			type: (each convertTypeFor: platform) ].
+	(newTable createFieldNamed: 'id' type: platform serial) bePrimaryKey

@@ -1,4 +1,4 @@
-as yet unclassified
+descriptions
 mongoSteamApplication
 	<mongoDescription>
 	^ VOTransientDescription new
