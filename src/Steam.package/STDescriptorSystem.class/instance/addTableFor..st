@@ -11,14 +11,14 @@ addTableFor: aClass
 		| class |
 		class := each propertyAt: #STObjectClass ifAbsent: [ nil ].
 		class 
-		ifNotNil: [ 
-			newTable 
-				addForeignKeyFrom: (newTable createFieldNamed: each accessor readSelector type: platform int4) 
-				to: ((self tableNamed: class asString asUppercase ) fieldNamed: 'id') ] 
-		ifNil: [ 
-			newTable
-				createFieldNamed: each accessor readSelector
-				type: (each convertTypeFor: platform) ] ].
+			ifNotNil: [ 
+				newTable 
+					addForeignKeyFrom: (newTable createFieldNamed: each accessor readSelector type: platform int4) 
+					to: ((self tableNamed: class asString asUppercase ) fieldNamed: 'id') ] 
+			ifNil: [ 
+				newTable
+					createFieldNamed: each accessor readSelector
+					type: (each convertTypeFor: platform) ] ].
 
 
 	newTable postInitializeIn: self.
