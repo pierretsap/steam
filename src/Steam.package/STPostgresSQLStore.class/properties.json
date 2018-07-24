@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"descriptorSystem",
-		"session"
+		"descriptorSystem"
 	],
 	"name" : "STPostgresSQLStore",
 	"type" : "normal"
