@@ -8,11 +8,5 @@ initializeDescriptor: aDescriptor
 	aDescriptor directMappingFor: 'id'.
 	desbribedClass basicNew magritteDescription children do: [ :each |
 		| class |
-		class := each propertyAt: #STObjectClass ifAbsent: [ nil ].
-		class 
-			ifNotNil: [
-				(aDescriptor newMapping: OneToOneMapping)
-					attributeName: each accessor readSelector;
-					referenceClass: class. ] 
-			ifNil: [ 
-				aDescriptor directMappingFor: each accessor readSelector ] ]
+		class := each propertyAt: #STObjectClass ifAbsent: [ STObject ].
+		class addDescriptor: aDescriptor to: each ]
