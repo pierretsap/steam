@@ -1,3 +1,3 @@
 accessing
 session 
-	^ self newSession
+	^ session
