@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WARequestFilter",
+	"category" : "Steam-Stores",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"application"
+	],
+	"name" : "STGlorpSessionFilter",
+	"type" : "normal"
+}

@@ -8,9 +8,7 @@ addTableFor: aClass
 	
 	(newTable createFieldNamed: 'id' type: platform serial) bePrimaryKey.
 	aClass basicNew magritteDescription children do: [ :each |
-		| class |
-		class := each propertyAt: #STObjectClass ifAbsent: [ STObject ].
-		class addTable: newTable to: each descriptor: self ].
+		each initializeGlorpTable: newTable inDescriptorSystem: self ].
 
 	newTable postInitializeIn: self.
 	self deferentialSetSchema: newTable.

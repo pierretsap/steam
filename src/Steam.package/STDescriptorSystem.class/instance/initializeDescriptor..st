@@ -7,6 +7,4 @@ initializeDescriptor: aDescriptor
 
 	aDescriptor directMappingFor: 'id'.
 	desbribedClass basicNew magritteDescription children do: [ :each |
-		| class |
-		class := each propertyAt: #STObjectClass ifAbsent: [ STObject ].
-		class addDescriptor: aDescriptor to: each ]
+		each initializeGlorpDescriptor: aDescriptor inDescriptorSystem: self ]

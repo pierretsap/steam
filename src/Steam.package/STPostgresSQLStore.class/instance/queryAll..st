@@ -1,7 +1,8 @@
 querying
 queryAll: aClass
 
-	| res |
+	| res session |
+	session := self session.
 	session login.
 	res := session read: aClass.
 	res do: [ :each | each steamApplication: appComponent ].
