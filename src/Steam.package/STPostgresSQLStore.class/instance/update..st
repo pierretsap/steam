@@ -1,6 +1,3 @@
 storing
 update: anObject
-	session login.
-	session inUnitOfWorkDo: [ session save: anObject ].
-	session logout
-	
+	self currentSession inUnitOfWorkDo: [ self currentSession save: anObject ].

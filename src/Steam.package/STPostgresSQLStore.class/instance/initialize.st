@@ -3,4 +3,3 @@ initialize
 
 	super initialize.
 	descriptorSystem := STDescriptorSystem appComponent: appComponent platform: self class login database.
-	session := self newSession
