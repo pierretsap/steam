@@ -1,0 +1,4 @@
+components
+hash
+
+	^ id hash
