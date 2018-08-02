@@ -1,4 +1,5 @@
 I'm a filter which manage the glorp session.
+I can execute given code before and after each request in the database.
 When a request is about to be executed I create a new glorp session and managing the login and logout.
 
     Instance Variables
