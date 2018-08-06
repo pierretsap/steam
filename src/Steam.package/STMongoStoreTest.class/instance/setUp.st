@@ -11,6 +11,9 @@ setUp
 	gameCat := (STGameCategory onSteamApplication: app)
 		title: 'Test Category';
 		yourself.
+	gameCat2 := (STGameCategory onSteamApplication: app)
+		title: 'Second Test Category';
+		yourself.
 	game := (STExampleGame onSteamApplication: app)
 		category: gameCat;
 		title: 'Test Game';
