@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "STLogin",
-	"category" : "Steam-Login",
+	"super" : "STOAuthHandler",
+	"category" : "Steam-SSO",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "STNoLogin",
+	"name" : "STGoogleAuthHandler",
 	"type" : "normal"
 }
