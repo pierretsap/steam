@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"commandColumn"
-	],
+	"instvars" : [ ],
 	"name" : "STCommand",
 	"type" : "normal"
 }

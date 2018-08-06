@@ -1,3 +1,3 @@
 initialization
 storeInitialization
-	store := STPostgresSQLStore on: self
+	store := STMongoStore on: self

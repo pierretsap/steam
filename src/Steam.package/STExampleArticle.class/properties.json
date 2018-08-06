@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "STObject",
+	"super" : "STAbstractArticle",
 	"category" : "Steam-Example",
 	"classinstvars" : [ ],
 	"pools" : [ ],

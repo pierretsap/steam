@@ -17,8 +17,11 @@ report
 	description asContainer do: [ :each | report addColumnDescription: each ].
 
 	self isLoggedIn
-		ifTrue: [
-			report addColumn: (STCommand new executeAll: self).
+		ifTrue: [ | commandsColumn |			
+			commandsColumn := STMACommandColumn new.
+			self listAccessor commands do: [ :each | each renderOn: self column: commandsColumn ].
+			report addColumn: commandsColumn.
+
 			checkbox label: 
 				(wrapper
 					appComponent: appComponent;
