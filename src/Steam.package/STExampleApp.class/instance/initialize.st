@@ -5,7 +5,7 @@ initialize
 	super initialize.
 	
 	"Here you can choose your login object"
-	login := STExampleLogin on: self.
+	login := STBasicLogin on: self.
 	
 	"Here you can define your application menu"
 	menuEntries := { 

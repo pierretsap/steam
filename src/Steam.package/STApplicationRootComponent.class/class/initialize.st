@@ -16,4 +16,4 @@ initialize
 
 	app preferenceAt: #sessionClass put: STSession.
 	self oauthHandlers do: [ :handler | handler configureOn: app ].
-	self registerCallbackHandlerAt: 'oauth2callback'.
+	self registerCallbackHandlerAt: 'oauth2callback'

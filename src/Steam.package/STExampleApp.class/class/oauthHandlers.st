@@ -5,6 +5,6 @@ oauthHandlers
 		secret: 'GQOJLyJBOTpgMFkwKgk-Dz7Y'
 		redirectUrl: 'http://localhost:' , self seasideServer port asString , '/oauth2callback').
 	(STGithubAuthHandler
-		key: 'e94060c606d435f40a86'
-		secret: '130511e35daa0b24aa756bb961b8a966cbda5df8'
+		key: 'aeb2f431d21a8e800915'
+		secret: '925919fb364bcfca1341cf7b06eb86b44ee9f0d8'
 		redirectUrl: 'http://localhost:' , self seasideServer port asString , '/oauth2callback')}
