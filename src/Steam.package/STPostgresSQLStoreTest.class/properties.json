@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "tsap 8/23/2018 15:18",
 	"super" : "TestCase",
 	"category" : "Steam-Tests",
 	"classinstvars" : [ ],
@@ -10,8 +10,6 @@
 		"gameCat",
 		"game",
 		"app",
-		"ds",
-		"session",
 		"article"
 	],
 	"name" : "STPostgresSQLStoreTest",

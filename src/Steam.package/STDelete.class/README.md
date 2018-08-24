@@ -1,0 +1,1 @@
+I represent the link between the action to delete and the object given as parameter.

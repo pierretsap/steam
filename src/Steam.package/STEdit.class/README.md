@@ -1,0 +1,1 @@
+I represent the link between the action to edit and the object given as parameter.

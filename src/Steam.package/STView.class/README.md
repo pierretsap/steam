@@ -1,0 +1,1 @@
+I represent the link between the action to view and the object given as parameter.

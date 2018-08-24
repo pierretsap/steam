@@ -1,0 +1,1 @@
+I represent the link between the action to rent and the object given as parameter.

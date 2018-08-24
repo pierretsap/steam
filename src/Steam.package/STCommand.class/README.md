@@ -1,0 +1,1 @@
+I am an abstract class but my subclasses represent the link between the STObject and the specific action to execute on this object.

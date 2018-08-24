@@ -1,0 +1,1 @@
+I am an abstract class but my subclasses represent the kind of functionality you can do with the STObject given as parameter.
